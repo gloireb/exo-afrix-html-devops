@@ -3,5 +3,7 @@ module.exports = {
     "stylelint-config-standard",
     "stylelint-config-tailwindcss"
   ],
-  rules: {}
+  rules: {
+    "comment-empty-line-before": "never"
+  }
 };
